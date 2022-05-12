@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="assests/js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assests/css/general.css" />
+    <link rel="stylesheet" href="assests/css/landing.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assests/icons/favicon.png"
+    />
+    <title>My Website</title>
+  </head>
+
+  <body>
+    <!-------------------HEADER SECTION------------------------>
+    <header class="header-section">
+      <div class="container container--header">
+        <a href="#"
+          ><img src="assests/icons/logo-01.png" alt="logo" class="logo-header"
+        /></a>
+        <nav class="nav-bar">
+          <ul class="navigation-list">
+            <li><a href="#skills" class="link link-header">Skills</a></li>
+            <li><a href="#about" class="link link-header">Chi sono</a></li>
+            <li><a href="#portfolio" class="link link-header">Portfolio</a></li>
+          </ul>
+        </nav>
+        <a href="#contact" class="btn btn-hide">Contattami</a>
+        <ion-icon name="menu-outline" class="menu-icon open-menu"></ion-icon>
+        <ion-icon name="close-outline" class="menu-icon close-menu hide"></ion-icon>
+      </div>
+<div class="mobile-menu hide">
+      <nav class="nav-bar-mob">
+        <ul class="navigation-list-mob">
+          <li><a href="#skills" class="link link-header">Skills</a></li>
+          <li><a href="#about" class="link link-header">Chi sono</a></li>
+          <li><a href="#portfolio" class="link link-header">Portfolio</a></li>
+          <a href="#contact" class="btn">Contattami</a>
+        </ul>
+      </nav>
+    </div>
+    </div>
+    </header>
+    <!-------------------PRESENTATION SECTION------------------------>
+    <main>
+      <section
+        id="presentation"
+        class="presentation-section padding-block-section"
+      >
+        <div class="container container--flex">
+          <div class="presentation-text">
+            <h1 class="heading-primary">
+              Ciao, sono Alessandro <span>Full Stack Developer</span> Student
+            </h1>
+            <p>Amo progettare e sviluppare cose per il web.</p>
+            <a href="#portfolio" class="btn">Il mio portfolio</a>
+          </div>
+          <img
+            src="assests/imgs/about-me-red.png"
+            class="presentation-image"
+            alt="Illustrazione di uno sviluppatore mentre sviluppa e progetta un sito web"
+          />
+        </div>
+      </section>
+      <!--------------------SKILLS----------------------->
+      <section id="skills" class="skills-section padding-block-section">
+        <div class="container container--flex">
+          <div class="hard-skills">
+            <h2 class="heading-secondary">Hard Skills</h2>
+            <div tabindex="0" class="skill">
+              <img
+                src="assests/icons/front-end.png"
+                alt="front-end development"
+                class="skill-icon"
+              />
+              <div class="skill-text">
+                <p>Front-end Development</p>
+                <span>Work in progress...</span>
+              </div>
+            </div>
+            <div tabindex="0" class="skill">
+              <img
+                src="assests/icons/back-end.png"
+                alt="back-end development"
+                class="skill-icon"
+              />
+              <div class="skill-text">
+                <p>Back-end Development</p>
+                <span>Work in progress...</span>
+              </div>
+            </div>
+            <div tabindex="0" class="skill">
+              <img
+                src="assests/icons/databases.png"
+                alt="databases"
+                class="skill-icon"
+              />
+              <div class="skill-text">
+                <p>Databases</p>
+                <span>Work in progress...</span>
+              </div>
+            </div>
+          </div>
+          <div class="soft-skills">
+            <h2 class="heading-secondary">Soft Skill</h2>
+            <div tabindex="0" class="skill">
+              <img
+                src="assests/icons/problem-solving.png"
+                alt="icona problem-solving"
+                class="skill-icon"
+              />
+              <div class="skill-text">
+                <p>Problem-solving</p>
+                <span>Work in progress...</span>
+              </div>
+            </div>
+            <div tabindex="0" class="skill">
+              <img
+                src="assests/icons/creativity.png"
+                alt="icona creatività"
+                class="skill-icon"
+              />
+              <div class="skill-text">
+                <p>Creatività</p>
+                <span>Work in progress...</span>
+              </div>
+            </div>
+            <div tabindex="0" class="skill">
+              <img
+                src="assests/icons/adaptation.png"
+                alt="Icona adattibilità"
+                class="skill-icon"
+              />
+              <div class="skill-text">
+                <p>Adattibilità</p>
+                <span>Work in progress...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------------ABOUT ME---------------------->
+      <section id="about" class="about-me-section padding-block-section">
+        <div class="container container--flex">
+          <div class="about-me-text">
+            <h2 class="heading-secondary">Chi sono</h2>
+            <p>
+              Ehi, piacere di conoscerti! Mi chiamo Alessandro Crinella e sono
+              un Full Stack Developer. Spinto dalla missione di rendere il web
+              un posto migliore, progetto e sviluppo siti web strutturati
+              attorno le esigenze dei tuoi clienti.
+            </p>
+            <div class="social-icons">
+              <a href="https://it.linkedin.com/" target="_blank"
+                ><img
+                  src="assests/icons/linkedin.png"
+                  alt="linkedin"
+                  class="social-icon"
+              /></a>
+              <a href="https://it-it.facebook.com/" target="_blank"
+                ><img
+                  src="assests/icons/facebook.png"
+                  alt="facebook"
+                  class="social-icon"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img
+                  src="assests/icons/instagram.png"
+                  alt="instagram"
+                  class="social-icon"
+              /></a>
+              <a href="https://github.com/Alessandro9936" target="_blank"
+                ><img
+                  src="assests/icons/github.png"
+                  alt="github"
+                  class="social-icon"
+              /></a>
+            </div>
+          </div>
+          <img
+            src="assests/imgs/hero-half-1.png"
+            alt="fotografia di Alessandro"
+            class="picture"
+          />
+        </div>
+      </section>
+      <!-------------------PORTFOLIO------------------------>
+      <section id="portfolio" class="portfolio-section padding-block-section">
+        <h2 class="heading-secondary">Il Mio Portfolio</h2>
+        <div class="container container--flex">
+          <div class="project">
+            <img
+              src="assests/imgs/under-construction.png"
+              alt="Questo progetto non è ancora disponibile"
+              class="construction-image"
+            />
+            <div class="project-text">
+              <p class="project-title">Progetto 1</p>
+              <p>Breve descrizione</p>
+              <a href="#" class="btn">Scopri di più</a>
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="assests/imgs/under-construction.png"
+              alt="Questo progetto non è ancora disponibile"
+              class="construction-image"
+            />
+
+            <div class="project-text">
+              <p class="project-title">Progetto 2</p>
+              <p>Breve descrizione</p>
+              <a href="#" class="btn">Scopri di più</a>
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="assests/imgs/under-construction.png"
+              alt="Questo progetto non è ancora disponibile"
+              class="construction-image"
+            />
+            <div class="project-text">
+              <p class="project-title">Progetto 3</p>
+              <p>Breve descrizione</p>
+              <a href="#" class="btn">Scopri di più</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------CONTACT ME----------------------->
+      <section id="contact" class="contacts-section padding-block-section">
+        <div class="container">
+          <div class="container--half">
+            <div class="contact-me-text">
+              <h2 class="heading-secondary">Qualche progetto in mente?</h2>
+              <p>
+                Che tu sia un imprenditore in cerca di raggiungere specifici
+                obiettivi di business con la tua presenza online o un'agenzia
+                che vuole fornire ai propri clienti un servizio impeccabile,
+                sono disponibile per collaborare!
+              </p>
+              <p>Clicca qui sotto per contattarmi tramite email:</p>
+              <a href="mailto:alecrinella99@gmail.com" class="link btn"
+                >alecrinella99@gmail.com &rarr;</a
+              >
+              <p>Oppure se preferisci, questi sono i miei canali social:</p>
+              <div class="social-icons">
+                <a href="https://it.linkedin.com/" target="_blank"
+                  ><img
+                    src="assests/icons/linkedin.png"
+                    alt="linkedin"
+                    class="social-icon"
+                /></a>
+                <a href="https://it-it.facebook.com/" target="_blank"
+                  ><img
+                    src="assests/icons/facebook.png"
+                    alt="facebook"
+                    class="social-icon"
+                /></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img
+                    src="assests/icons/instagram.png"
+                    alt="instagram"
+                    class="social-icon"
+                /></a>
+                <a href="https://github.com/Alessandro9936" target="_blank"
+                  ><img
+                    src="assests/icons/github.png"
+                    alt="github"
+                    class="social-icon"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-------------------FOOTER------------------------>
+    <footer class="footer-section padding-block-section">
+      <div class="container footer--container">
+        <a href="#"
+          ><img src="assests/icons/logo-01.png" alt="logo" class="logo-footer"
+        /></a>
+        <div class="social-icons">
+          <a href="https://it.linkedin.com/" target="_blank"
+            ><img
+              src="assests/icons/linkedin.png"
+              alt="linkedin"
+              class="social-icon"
+          /></a>
+          <a href="https://it-it.facebook.com/" target="_blank"
+            ><img
+              src="assests/icons/facebook.png"
+              alt="facebook"
+              class="social-icon"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img
+              src="assests/icons/instagram.png"
+              alt="instagram"
+              class="social-icon"
+          /></a>
+          <a href="https://github.com/Alessandro9936" target="_blank"
+            ><img
+              src="assests/icons/github.png"
+              alt="github"
+              class="social-icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
